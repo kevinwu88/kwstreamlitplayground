@@ -7,7 +7,7 @@ from openai import OpenAI
 #     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
 #     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
-st.title("💬 Kevin's Chatbot")
+st.title("😈 Kevin's Chatbot")
 
 openai_api_key = st.secrets["openai_api_key"]
 
