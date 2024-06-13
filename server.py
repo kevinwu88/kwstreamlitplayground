@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-ICON_URL = 'https://www.fieldko.com/hubfs/320x132px-trans-01%20(14).png';
+# ICON_URL = 'https://www.fieldko.com/hubfs/320x132px-trans-01%20(14).png';
 
 # with st.sidebar:
 #     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
@@ -9,9 +9,9 @@ ICON_URL = 'https://www.fieldko.com/hubfs/320x132px-trans-01%20(14).png';
 #     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
 #     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
-# st.logo(LOGO_URL_LARGE, link=ICON_URL, icon_image=LOGO_URL_SMALL)
-st.title("FieldKo Copilot Assistant")
 
+st.title("Copilot Assistant")
+st.logo('images/fieldkoicon.png', icon_image='images/fieldkoicon.png')
 openai_api_key = st.secrets["openai_api_key"]
 
 if "messages" not in st.session_state:
