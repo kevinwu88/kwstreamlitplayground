@@ -9,7 +9,7 @@ ICON_URL = 'https://www.fieldko.com/hubfs/320x132px-trans-01%20(14).png';
 #     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
 #     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
-st.logo(LOGO_URL_LARGE, link=ICON_URL, icon_image=LOGO_URL_SMALL)
+# st.logo(LOGO_URL_LARGE, link=ICON_URL, icon_image=LOGO_URL_SMALL)
 st.title("FieldKo Copilot Assistant")
 
 openai_api_key = st.secrets["openai_api_key"]
